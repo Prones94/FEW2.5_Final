@@ -1,1 +1,7 @@
+#titanic {
+  margin-bottom: 10px;
+}
 
+#passenger-details > ul {
+  list-style-type: none;
+}

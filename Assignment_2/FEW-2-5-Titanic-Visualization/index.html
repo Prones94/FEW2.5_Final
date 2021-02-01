@@ -7,9 +7,29 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <!--Titanic Data showing
+        # of men
+        # of women
+        # survived/fatality
 
+    -->
+    <h2>Main Titanic Data</h2>
+    <div class="buttons">
+      <button class="age-sort">Sort by Age</button>
+      <button class="fare-sort">Sort by Fare</button>
+      <button class="embarked-sort">Sort by Embarked</button>
+      <button class="gender-sort">Sort By Gender</button>
+      <button class="survived-sort">Sort by Survivors</button>
+    </div>
     <div id="titanic"></div>
+    <div id="passenger-details">
+      <!-- passenger info here-->
+    </div>
+    <h2>Embarked Count</h2>
+    <div id="titanic-embarked"></div>
 
+    <script src="embarked.js" type="module"></script>
     <script src="script.js" type="module"></script>
+
   </body>
 </html>
