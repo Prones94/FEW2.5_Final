@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final</title>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="./data/happiness.js"></script>
+</head>
+<body>
+  <header>
+    <h1 id="title"></h1>
+    <h3 id="subtitle"></h3>
+  </header>
+  <div class="info">
+    <table>
+      <thead>
+        <th>Year</th>
+        <th>Name of study</th>
+        <th>Number of countries in the study</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="info-year"></td>
+          <td id="info-name"></td>
+          <td id="info-count"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="filtered">
+    <div class="buttons">
+      <button id="gdp">GDP Per Capita</button>
+      <button id="support">Social Support</button>
+      <button id="health">Life Expectancy</button>
+      <button id="gen">Generosity</button>
+    </div>
+    <div style="display: flex;">
+        <div id="bycategory"></div>
+        <div id="bycategorygraph"></div>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
